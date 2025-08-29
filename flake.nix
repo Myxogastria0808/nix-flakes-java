@@ -15,7 +15,8 @@
       {
         devShells.default = pkgs.mkShell {
           packages = with pkgs; [
-            temurin-bin
+            jdk21_headless
+            gradle
           ];
         };
       }
